@@ -1,0 +1,14 @@
+{
+  "name": "Java Development Environment",
+  "image": "harbor.aizcspace.com/anzhe/maven:3.9.9-openjdk-21",
+  "extensions": [
+    "vscjava.vscode-java-pack",
+    "redhat.java",
+    "vscjava.vscode-maven"
+  ],
+  "settings": {
+    "java.home": "/usr/local/openjdk-21",
+    "maven.executable.path": "/usr/local/bin/mvn"
+  }
+}
+
